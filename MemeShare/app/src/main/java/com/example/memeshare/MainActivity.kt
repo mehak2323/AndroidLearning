@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity() {
         //removing volley queue specific to this function and replace with singleton queue
         //val queue = Volley.newRequestQueue(this)
         //val url = "https://www.google.com"
-        val url = "https://meme-api.herokuapp.com/gimme"
+        //val url = "https://meme-api.herokuapp.com/gimme"
+        val url="https://meme-api.herokuapp.com/gimme/ClimateMemes"
 
         //get json object request and load image using glide library
         val jsonObjectRequest = JsonObjectRequest(Request.Method.GET, url, null,
