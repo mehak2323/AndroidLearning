@@ -9,6 +9,6 @@ import androidx.room.PrimaryKey
 class Note(@ColumnInfo(name = "text") val text: String) {
 
     //Some columns can be inside class, instead of constructor variables
-    @PrimaryKey(autoGenerate = true) val id = 0
+    @PrimaryKey(autoGenerate = true) var id = 0
 
 }
